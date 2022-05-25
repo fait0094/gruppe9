@@ -1,0 +1,15 @@
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+/*.flex-col :last-child {
+  margin-top: auto;
+  justify-content: space-between;
+}
+*/
