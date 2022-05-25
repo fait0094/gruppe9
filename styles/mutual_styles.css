@@ -13,17 +13,19 @@ header nav li {
   /* border-bottom: 1px solid white;*/
   width: 7rem;
   padding: 0.2rem;
+  flex-shrink: 0;
 }
 
 header {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  justify-content: center;
   position: static;
   background: white;
   top: 0;
   padding: 0.5rem 0.5rem;
-  overflow: auto;
-  justify-content: space-around;
+}
+header nav {
+  overflow-x: auto;
 }
 
 header .logo a {
