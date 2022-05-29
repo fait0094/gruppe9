@@ -1,12 +1,48 @@
-.container {
+.grid_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
 }
 
-.tekst {
+.tekst h2 {
+  line-height: 0;
+  margin-top: 10%;
+  margin-left: 35%;
+  font-family: "Roboto", sans-serif;
+}
+
+.tekst h3 {
+  line-height: 0;
+  margin-top: 15%;
+  margin-left: 35%;
+  font-family: "Roboto", sans-serif;
+}
+
+.tekst p {
   line-height: 2;
   margin-left: 35%;
   margin-top: 5%;
-  margin-right: 3%;
   font-family: "Roboto", sans-serif;
+}
+
+.proto-billede {
+  width: 500px;
+  margin-top: 15%;
+  margin-left: 35%;
+}
+.video {
+  width: 500px;
+  margin-top: 15%;
+  margin-left: 35%;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-size: 12px;
 }
