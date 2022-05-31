@@ -28,7 +28,7 @@
 .to {
   list-style: circle;
   font-family: "Roboto", sans-serif;
-  margin-left: 33%;
+  margin-left: 40%;
   line-height: 1;
 }
 
@@ -41,13 +41,13 @@
 #ikon_1 {
   position: relative;
   left: 60%;
-  top: -94px;
+  top: -80px;
 }
 
 #ikon_2 {
   position: relative;
   left: 58%;
-  top: -96px;
+  top: -84px;
 }
 
 footer {
