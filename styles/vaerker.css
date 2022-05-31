@@ -8,8 +8,29 @@
   display: flex;
   flex-direction: column;
 }
-/*.flex-col :last-child {
+flex-col :last-child {
   margin-top: auto;
   justify-content: space-between;
 }
-*/
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+body {
+  min-height: 100vh;
+  margin: 50px;
+}
+h4 {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: black;
+}
+h5 {
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  color: rgb(38, 38, 38);
+}
