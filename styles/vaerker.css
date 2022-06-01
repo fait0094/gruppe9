@@ -10,14 +10,15 @@ h4 {
   font-size: 0.9rem;
   margin-bottom: 1.3rem;
   font-family: "Roboto", sans-serif;
-  line-height: 1;
+  line-height: 1.2;
   color: black;
+  font-weight: bolder;
 }
 h5 {
   font-size: 0.7rem;
   margin-bottom: 1.5rem;
   font-family: "Roboto", sans-serif;
-  color: rgb(38, 38, 38);
+  color: rgb(61, 60, 60);
 }
 
 @media (min-width: 800px) {
@@ -50,13 +51,9 @@ h5 {
     margin-bottom: 1.5rem;
     font-family: "Roboto", sans-serif;
     line-height: 1.2;
-    color: black;
-    font-weight: bolder;
   }
   h5 {
     font-size: 0.8rem;
     margin-bottom: 1.5rem;
-    font-family: "Roboto", sans-serif;
-    color: rgb(29, 29, 29);
   }
 }

@@ -44,12 +44,12 @@ figcaption {
 
 video {
   width: 100%;
+  margin-block: 1rem;
 }
 
 figcaption,
 h3,
-p,
-footer {
+p {
   font-family: "Roboto", sans-serif;
 }
 
@@ -58,22 +58,9 @@ p {
   line-height: 1.5;
 }
 
-.anmelder {
+.anmelder p {
   font-size: 0.8rem;
   margin-block: 1rem;
-}
-
-footer {
-  position: absolute;
-  width: 100%;
-}
-
-.footer {
-  margin: auto;
-  text-align: center;
-  padding: 10px;
-  line-height: 1.5;
-  font-size: 12px;
 }
 
 figcaption {
@@ -83,20 +70,6 @@ figcaption {
 
 .tekst {
 }
-
-/* .artikel1,
-.artikel2 {
-  text-align: justify;
-} */
-
-/* #section_1 {
-  margin: 30px;
-} */
-
-/* section {
-  display: flex;
-  justify-content: center;
-} */
 
 section {
   display: grid;
@@ -115,6 +88,10 @@ section {
   /* .pil {
     visibility: visible;
   } */
+
+  video {
+    margin-block: 0;
+  }
 
   .grid_1 {
     display: grid;
