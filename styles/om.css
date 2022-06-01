@@ -4,6 +4,12 @@
   column-gap: 20px;
 }
 
+.grid_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
 .tekst h2 {
   line-height: 0;
   margin-top: 10%;
