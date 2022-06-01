@@ -93,3 +93,13 @@ a:hover {
   justify-content: center;
   align-items: flex-end;
 }
+footer {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-size: 12px;
+}
