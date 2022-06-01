@@ -1,45 +1,74 @@
+* {
+  all: unset;
+  display: revert;
+  cursor: revert;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* MENU START */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  /* Tykkere font */
+}
+
+/* MENU SLUT */
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  line-height: 2;
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  line-height: 2;
+  margin-top: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  object-fit: fill;
+  width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 25px;
+}
+
 .grid_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   column-gap: 20px;
+  padding: 5rem;
+  margin-bottom: 0.2rem;
 }
 
 .grid_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   column-gap: 20px;
+  padding: 5rem;
 }
 
-.tekst h2 {
-  line-height: 0;
-  margin-top: 10%;
-  margin-left: 35%;
-  font-family: "Roboto", sans-serif;
-}
-
-.tekst h3 {
-  line-height: 0;
-  margin-top: 15%;
-  margin-left: 35%;
-  font-family: "Roboto", sans-serif;
-}
-
-.tekst p {
-  line-height: 2;
-  margin-left: 35%;
-  margin-top: 5%;
-  font-family: "Roboto", sans-serif;
-}
-
-.proto-billede {
-  width: 500px;
-  margin-top: 15%;
-  margin-left: 35%;
-}
-.video {
-  width: 500px;
-  margin-top: 15%;
-  margin-left: 35%;
+.billede_2 {
+  margin-top: 1rem;
 }
 
 footer {
