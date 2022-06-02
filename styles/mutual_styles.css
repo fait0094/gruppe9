@@ -104,3 +104,65 @@ footer {
   line-height: 1.5;
   font-size: 12px;
 }
+
+@media (min-width: 992px) {
+  #mobil_header {
+    display: none;
+  }
+  #desktop_header {
+    display: block;
+  }
+}
+
+/* Mobil header style */
+/* Skal kun aktivere på en vis width-size. Ellers default til desktop */
+/* Adapted from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp */
+/* Style the navigation menu */
+@media (max-width: 992px) {
+  #mobil_header {
+    display: block;
+    width: 400px;
+  }
+
+  #desktop_header {
+    display: none;
+  }
+
+  .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: white;
+    color: white;
+  }
+
+  #logo {
+    width: 20%;
+  }
+  .icon {
+    font-size: 2.2rem;
+  }
+}
