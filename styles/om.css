@@ -41,16 +41,19 @@ Media query større end x
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
     column-gap: 20px;
-    padding-left: 5rem;
+    margin: auto;
     margin-bottom: 0.2rem;
     margin-top: 1.3rem;
+    width: 992px;
   }
 
   .grid_2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
-    padding: 5rem;
+
+    margin: auto;
+    width: 992px;
   }
 
   .billede_1 {
